@@ -1,0 +1,28 @@
+<?php
+	echo "Ciudades de Estados Unidos: ";
+	
+	$ciudadesUSA = array("Houston", "Denver", "Portland", "Seattle", "Los Angeles", "Salt Lake City");
+	$ciudadesUSA[] ="Denver";
+	print_r($ciudadesUSA);
+	
+	$ciudadEliminar = "Seattle";
+	$llave = array_search($ciudadEliminar, $ciudadesUSA);
+	
+	if ($llave!==false){
+	  unset([])
+	}
+	
+	//$Pais = "Bangladesh";
+	//echo $Pais;
+	
+	//unset($Pais);
+	
+	//echo $Pais;
+	
+	//$estados = ["Washington", "Oregon", "Nevada", "California", "Idaho"];
+	//print_r($estados);
+	
+	//unset($estados[0]);
+	//print_r($estados);
+	
+?>
